@@ -4,6 +4,7 @@
 
 # Load required packages. renv is used to maintain reproducibility
 library(renv)
+renv::activate()
 # Also using data.table for fast table operations at beginning of script
 library(data.table)
 library(readr)
