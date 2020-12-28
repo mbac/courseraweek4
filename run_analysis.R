@@ -46,9 +46,9 @@ meansd_names <- grep("^.+-(std\\(\\)|mean\\(\\))",
                 names(train_data)
                 )
 
-# Extract columns. Since we're referring to a 'system' variable (not a column
-# name from the data.table) we need to use the "dot-dot" notation in data.table.
-# We'll call this meansd_train.
+# Extract columns. Since we're referring to a variable defined in the calling
+# environment (not a column name from the data.table) we need to use the
+# "dot-dot" notation in data.table. We'll call this meansd_train.
 meansd_train <- train_data[, ..meansd_names]
 
 # Combine DTs: add activity IDs's to the data
