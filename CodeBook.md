@@ -17,7 +17,7 @@ In the final data sets, variable are named as follows:
 	- application of column names as per original codebook in file `features.txt`, converted to lower case
 	- column binding with data from files `y_` and `subject_`, containing a single column of data each (activity and subject id, respectively)
 	- coercion of `activity` into a factor whose labels were taken from file `activity_labels.txt` as vector
-	- Identical transformations were applied to the `*_test` data set, which was then merged (row bound) to `data`.
+	- Identical transformations were applied to the `*_test` data sets, which was then merged (row bound) to `data`.
 ### Mean, standard deviation data set (`meansd_data`)
 - Columns names were extracted from `names(data)` whose name contained `mean()` or `sd()`, signifying that the presented values were average of each time period.
 	- Variables `activity` and `subjects` were also kept for later use.
