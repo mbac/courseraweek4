@@ -4,6 +4,8 @@
 
 # Specify name of data directory within working directory
 DATA_DIRECTORY <- "data"
+DATA_1 <- "train"
+DATA_2 <- "test"
 
 # Load required packages. renv is used to maintain reproducibility
 library(renv)
@@ -13,7 +15,6 @@ suppressMessages(
 # Also using data.table for fast table operations at beginning of script
 library(data.table)
 library(readr)
-library(tidyverse)
 # Load special function(s) for this script
 source("week4lib.R")
 
@@ -32,9 +33,9 @@ variable_names <-
     read_table2('data/features.txt', col_names = FALSE, col_types = cols())
 
 # Load training data
-data <- setDT(loadData("train"))
+data <- setDT(loadData(DATA_1))
 # And test data
-test_data <- setDT(loadData("test"))
+test_data <- setDT(loadData(DATA_2))
 
 # Merge (row bind) the data sets. For performance, we keep one of the DTs
 data <- rbind(data, test_data)
