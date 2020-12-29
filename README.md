@@ -13,6 +13,4 @@ This repo contains two files. The main script, `run_analysis.R` is the actual sc
 - Specify directory name by assigning it to the `DATA_DIRECTORY` variable in `run_analysis.R`. Default is `data`.
 - Specify the file name suffix for the different data files. Default is `train` and `test` as found in the present data set. Could theoretically accomodate for further data sets from the same study.
 - Start the procedure by running/sourcing `run_analysis.R`
-- The results are data frame/data tables with different characteristics, as requested from the assignment: `data`, `meansd_data` and `avg_data`.  Please see [CodeBook.md][1] for more information.
-
-[1]:	CodeBook.md
+- The results are data frame/data tables with different characteristics, as requested from the assignment: `data`, `meansd_data` and `avg_data`.  Please see [CodeBook.md] for more information.
