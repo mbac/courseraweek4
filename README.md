@@ -6,8 +6,8 @@ This repo contains two files. The main script, `run_analysis.R` is the actual sc
 	- `activity_labels.txt`
 	- `features.txt`
 	- `subject_*.txt`
-	- `X_*`
-	- `y_*`
+	- `X_*.txt`
+	- `y_*.txt`
 	- Note that these are the original file names and the scripts expect them.
 - Place files into a data directory of your choice within the scripts working directory (indicated by `get_wd()`)
 - Specify directory name by assigning it to the `DATA_DIRECTORY` variable in `run_analysis.R`. Default is `data`.
