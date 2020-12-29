@@ -14,3 +14,4 @@ This repo contains two files. The main script, `run_analysis.R` is the actual sc
 - Specify the file name suffix for the different data files. Default is `train` and `test` as found in the present data set. Could theoretically accomodate for further data sets from the same study.
 - Start the procedure by running/sourcing `run_analysis.R`
 - The results are data frame/data tables with different characteristics, as requested from the assignment: `data`, `meansd_data` and `avg_data`.  Please see [CodeBook.md] for more information.
+>>>>>>> 70f4254860b41f799ed11f151284623d5384846d
