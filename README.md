@@ -6,8 +6,13 @@ This repo contains two files. The main script, `run_analysis.R` is the actual sc
 	- `activity_labels.txt`
 	- `features.txt`
 	- `subject_*.txt`
+<<<<<<< HEAD
 	- `X_*.txt`
 	- `y_*.txt`
+=======
+	- `X_*`
+	- `y_*`
+>>>>>>> 70ddbb1e7b07373c6a519a77984179d1ed93e939
 	- Note that these are the original file names and the scripts expect them.
 - Place files into a data directory of your choice within the scripts working directory (indicated by `get_wd()`)
 - Specify directory name by assigning it to the `DATA_DIRECTORY` variable in `run_analysis.R`. Default is `data`.
@@ -15,4 +20,8 @@ This repo contains two files. The main script, `run_analysis.R` is the actual sc
 - Start the procedure by running/sourcing `run_analysis.R`
 - The results are data frame/data tables with different characteristics, as requested from the assignment: `data`, `meansd_data` and `avg_data`.  Please see [CodeBook.md][1] for more information.
 
+<<<<<<< HEAD
 [1]:	CodeBook.md
+=======
+[1]:	blob/main/CodeBook.md
+>>>>>>> 70ddbb1e7b07373c6a519a77984179d1ed93e939
